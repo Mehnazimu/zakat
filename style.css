@@ -36,7 +36,7 @@ body,header{
 
     
 }
-#text-align{
+.text-align{
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
@@ -73,19 +73,7 @@ body,header{
     
     
 }
-.footer{
-    text-align: center;
-    padding: 20px 50px;
-    background-color: black;
-}
-.footer-text{
-    color: white;
-    font-size: 8px;
-    top: 3%;
-    padding: 0;
 
-
-}
 .column{
     float:left;
     width: 30%;
@@ -122,4 +110,31 @@ body,header{
     height: 250px;
     width: 370px;
 
+}
+.footer{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 50px;
+    background-color: black;
+}
+.footer-text{
+    color: white;
+    font-size: 8px;
+    top: 3%;
+    padding: 0;
+
+
+}
+.zakat{
+    display: flex;
+    margin-left: 70px;
+    margin-bottom: 200px;
+    
+}
+.zakat-fund{
+    float: left;
+    height:200px ;
+    width:33.33% ;
+    padding: 20px;
+    display: block;
 }
